@@ -1,3 +1,20 @@
 @charset "UTF-8";
 
-/* ROSA E YELLOW*/
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(117, 117, 15);
+}
+main{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    border-radius: 10px;
+}
+main, section, div, h1{
+    text-align: center;
+}
