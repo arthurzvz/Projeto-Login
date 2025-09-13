@@ -49,8 +49,9 @@ section#login > div#imagem{
     background: purple url('/imagens/pexels.jpg');
     background-size: cover;
     height: 200px;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
-
 div#formulario{
     display: block;
     padding-top: 10px;
