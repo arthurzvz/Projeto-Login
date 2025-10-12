@@ -40,9 +40,7 @@ main, section, div, h1{
     text-align: center;
 }
 
-span{
-    background-color: blueviolet;
-}
+
 
 section#login > div#imagem{
     display: block;
@@ -56,9 +54,40 @@ div#formulario{
     display: block;
     padding-top: 10px;
 }
-input{
-    background-color: aqua;
+
+form > input[type=submit]{
+    font-weight: bold;
+    background-color: blueviolet;
+    display: block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    transition-timing-function: ease;
 }
-input.resposta{
-    background-color: rgb(255, 255, 255);
+
+form > input[type=submit]:hover, form > a.botao:hover{
+    background-color: purple;
+} 
+form > a.botao{
+    font-weight: bold;
+    background-color: #23273E;
+    display: block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    transition-timing-function: ease;
+}
+
+form > div > label{
+    display: none;
 }
