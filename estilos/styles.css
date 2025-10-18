@@ -69,6 +69,16 @@ form > input[type=submit]{
     transition: background-color 0.3s;
     transition-timing-function: ease;
 }
+span{
+    background-color: #ECA7B9;
+    border: px;
+}
+div.campo{
+    background-color: #ECA7B9;
+    margin: 2px;
+    padding: 0px;
+    border-radius: 5px;
+}
 
 form > input[type=submit]:hover, form > a.botao:hover{
     background-color: purple;
@@ -82,12 +92,29 @@ form > a.botao{
     border-radius: 5px;
     padding: 10px;
     width: 100%;
-    margin-top: 10px;
+
     cursor: pointer;
     transition: background-color 0.3s;
     transition-timing-function: ease;
 }
 
+div > input:focus-within{
+    background-color: white;
+}
+
 form > div > label{
     display: none;
+}
+
+form > div > input{
+   background-color: #23273E;
+    color: white;
+   margin-right: 1px;
+   border-radius: 5px;
+   font-size: 1em;
+    border: none;
+    height: 100%;
+    transform: translateY(-4px);
+
+    width: calc(100% - 30px);
 }
