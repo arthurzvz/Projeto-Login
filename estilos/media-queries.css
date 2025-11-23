@@ -22,7 +22,7 @@
     }
 }
 
-/*QUERY PARA DESKTOP*/
+/*QUERY PARA DESKTOP ou telas maiores*/
 @media screen and (min-width: 992px) { 
      body{
         background-image: linear-gradient(to bottom, #23273E, #ECA7B9);
